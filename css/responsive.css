@@ -1,0 +1,405 @@
+/*Extra large devices (large desktops, 1200px and up)*/ 
+@media (min-width: 1200px) { ... }
+
+
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ 
+    .navbar{
+        position:fixed;
+        background:rgba(50, 29, 134, 0.82);
+        width: 100%;
+    }
+
+.left_part p {
+	color: #fff;
+	font-size: 13px;
+}
+    
+    
+.fooder_nav {
+	font-size: 8px;
+	padding: 0 13px;
+}
+
+ input {
+	
+	padding: 9px 6px;
+	font-size: 18px;
+} 
+    
+    
+    
+    
+.input a {
+	border: 1px solid #fff;
+	padding: 9px 18px;
+	background: #9a93af;
+	color: #000000;
+}
+.right_socul_icon .fa {
+	font-size: 12px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	padding: 15px;
+	color: #fff;
+}
+
+.fa.fa-angle-up {
+	
+	right: 20px;
+    margin-top: -100px;
+}
+
+}
+
+
+/*Medium devices (tablets, 768px and up)*/ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ .navbar{
+        position:fixed;
+        width: 100%;
+    }
+    
+    
+    
+.navbar .navbar-nav .nav-item {
+	padding: 0px 92px;
+}
+    
+.col-md-6 {
+	-ms-flex: 0 0 0 !imporant;
+	 flex: 0 0 0 !imporant; 
+	 max-width: none !imporant; 
+}
+.navbar .navbar-nav .nav-item .nav-link {
+	text-align: center;
+	background:rgba(50, 29, 134, 0.82);
+    padding: 15px;
+}
+ .story_logo img {
+	width: 183px;
+} 
+ .story p {
+	font-size: 13px;
+}   
+    
+.left_part p {
+	font-size: 12px;
+}  
+    
+input {
+	padding: 15px 26px;
+	font-size: 19px;
+}
+.fooder_nav a {
+	color: #fff;
+	font-size: 13px;
+	padding-left: 20px;
+}  
+    
+.input a {
+	padding: 16px 27px;
+}
+    
+ .phone_icon {
+	padding-top: 38px;
+	color: #fff;
+}
+
+.single_slide p {
+	font-size: 15px;
+	line-height: 24px;
+	padding-top: 30px;
+} 
+    
+    
+    
+ .right_socul_icon .fa {
+	font-size: 29px;
+	padding: 11px;
+}   
+    
+    
+    
+.right_socul_icon .fa {
+	font-size: 35px;
+	padding: 10px;
+} 
+.copy_ride_area h5 {
+	padding-left: 68%;
+	padding-bottom: 40px;
+	font-size: 13px;
+} 
+ .fa.fa-angle-up {
+	
+	right: 30px;
+	width: 35px;
+	height: 35px;
+	margin-top: -152px;
+}   
+    
+
+
+}
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+.bannar_slide_text {
+	padding: 126PX 0;
+} 
+    
+.bannar_slide_text h6 {
+	font-size: 26px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size:16px;
+	text-align: center;
+	background:rgba(50, 29, 134, 0.82);
+    
+    padding:10px;
+}
+        
+.navbar .navbar-nav .nav-item {
+	padding: 0px 92px;
+    
+}
+ 
+    
+.story_logo img {
+	width: 148px;
+} 
+.story p {
+	font-size: 12px;
+}    
+.service_area {
+	padding: 40px 0;
+}  
+    
+ .service_area h2 {
+       font-size: 14px;
+     
+    }
+ .service_area h2::before {
+   left: 53%;
+
+}  
+.service_area .service_icon .fa {
+	font-size: 45px;
+	padding-left: 122px;
+}  
+   
+    
+   .text-left p {
+     padding-left: 120px;
+} 
+   
+.meet_area_header h3 {
+	padding-left: 36px;
+}
+    
+.meet_area_header p {
+    padding-left: 29px;
+}  
+  .meet_area_header p::before {
+	left: 50%;
+	
+}  
+ .card_bored {
+	text-align: center;
+	margin: 10px 0;
+}   
+    
+    
+    
+    
+.expart-ic h5 {
+	font-size: 15px;
+	
+	padding-left: 115px;
+}  
+    
+    
+    
+
+    
+    
+    
+  
+    
+   .single_slide p {
+	font-size: 12px;
+	line-height: 13px;
+	padding: 12px;
+} 
+    
+.single_slide p {
+	font-size: 29px;
+	line-height: 33px;
+	padding: 14px;
+}  
+ 
+    
+.location_icon {
+	text-align: center;
+}  
+.phone_icon {
+	text-align: center;
+}  
+input {
+	padding: 20px 71px;
+	font-size: 12px;
+}
+    
+   .right_socul_icon .fa {
+	font-size: 9px;
+	padding: 12px;
+	
+}
+.input {
+	padding-bottom: 57px;
+}
+.input a {
+	padding: 17px 31px;
+}
+    
+ .right_socul_icon {
+	padding-top: 0px;
+}   
+    
+ .right_socul_icon .fa {
+	font-size: 19px;
+	padding: 13px;
+}   
+ .copy_ride_area h5 {
+	padding-left: 67%;
+    font-size: 9px;
+}     
+ .fa.fa-angle-up {
+
+	right: 38px;
+	width: 30px;
+	height: 30px;
+    margin-top: -150px;
+}
+    
+    
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.navbar .navbar-nav .nav-item {
+	padding: 8px 105px;
+	text-align: center;
+	background: #444;
+}
+.bannar_slide_text {
+	padding: 103PX 0;
+}
+.bannar_slide_text h6 {
+	font-size: 29px;
+	padding-bottom: 25px;
+	color: #fff;
+}  
+ .story_logo img {
+	width: 148px;
+}    
+    
+ .story_logo {
+	text-align: center;
+}
+    .story h3 {
+	font-size: 29px;
+	text-align: center;
+	padding-top: 40px;
+}
+ .story p {
+	font-size: 14px;
+}   
+    
+    
+.col-3 {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}  
+  .story a {
+	margin-left: 81px;
+}  
+ .service_icon {
+	padding-left: 50px;
+} 
+.expart-ic h5 {
+	font-size: 12px;
+	padding-left: 50px;
+}
+.text-left p {
+	
+	font-size: 15px;
+	padding-left: 56px;
+}
+    
+ .meet_area_header p::before {
+	left: 51%;
+	top: 49px;
+}   
+    
+  .card_bored {
+	text-align: center;
+	margin: 10px 0;
+} 
+    
+    
+    
+.form-header h2 {
+	font-size: 11px;
+	padding: 32px 0;
+}
+ .logo_header h2 {
+	padding: 32px 0;
+	font-size: 13px;
+}
+.location_icon {
+	padding: 14px 0px;
+	font-size: 33px;
+	padding-left: 9px;
+}
+.phone_icon {
+	padding-top: 17px;
+	font-size: 33px;
+	padding-left: 9px;
+}
+.copy_ride_area h5 {
+	padding-left: 20%;
+	font-size: 15px;
+} 
+.right_header h1 {
+	padding-bottom: 23px;
+	font-size: 17px;
+	padding-right: 155px;
+}
+    
+ .fa.fa-angle-up {
+
+	right: 14px;
+	width: 30px;
+	height: 30px;
+    font-size: 33px;
+    margin-top: -129px;
+}   
+    
+    
+}
+
+
+
+
